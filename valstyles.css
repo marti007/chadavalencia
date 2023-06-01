@@ -72,10 +72,35 @@
   background: #ffd868;
   box-shadow: 0 0 30px#ffd868;
   color: #ffffff;
-  
+  cursor: pointer;
 }
 
 .bg-1{
   background-image: url('img/pexels-lucas-pezeta-3517794.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position:bottom;
+}
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #571515 10%,
+      #b4280f 59%,
+      #5eff13 67%,
+      #00ff2a 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 30px;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
