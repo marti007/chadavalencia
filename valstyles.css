@@ -104,3 +104,9 @@
     background-position: 200% center;
   }
 }
+
+@media screen and (max-width: 700px){
+  .display-date, .display-time{
+    font-size: 0.8rem;
+  }
+}
