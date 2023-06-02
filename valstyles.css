@@ -64,6 +64,7 @@
 }
 
 
+
 .bg-1{
 
   background-image: url('img/ad-1.png');
@@ -106,7 +107,8 @@
 
 @media screen and (max-width: 700px){
   .display-date, .display-time{
-    font-size: 0.8rem!important;
+
+    display: inline-block;
   }
   .hotline{
     font-size: 0.7rem!important;
