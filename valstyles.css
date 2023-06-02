@@ -67,7 +67,7 @@
 
 .bg-1{
 
-  background-image: url('img/cover-1.png');
+  background-image: url('img/smart-chadaval-cover.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -75,10 +75,11 @@
 .animate-charcter {
   text-transform: uppercase;
   background-image: linear-gradient(-225deg,
-      #571515 10%,
-      #b4280f 59%,
-      #5eff13 67%,
-      #00ff2a 100%);
+      #efff15 10%,
+      #50d2fa 59%,
+      #ffa113 67%,
+      #6aff13 87%,
+      #a6ff00 100%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
