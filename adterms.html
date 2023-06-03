@@ -23,6 +23,7 @@
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script async src="https://cse.google.com/cse.js?cx=f1340ed61749c436a"></script>
   <style>
     @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
     @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Titan+One&display=swap');
@@ -88,6 +89,7 @@
 
     </div>
   </div>
+  <!-- NAVBAR -->
   <nav class="navbar sticky-top navbar-expand-lg m-0" style="background: linear-gradient(to right,  #1f1c2c, #928dab);">
     <div class="container-fluid">
       <a class="navbar-brand me-sm-5 w3-hover-text-purple fs-6 animate-charcter" href="#"  style="font-family: 'Titan One';">VALENCIA, NEGROS ORIENTAL 6215</a>
@@ -119,11 +121,16 @@
             <a class="nav-link w3-text-amber" href="adterms.html">ADVERTISE</a>
           </li>
         </ul>
-        <div class="d-flex justify-content-end ms-sm-5">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+        <div class=" justify-content-end ms-sm-5">
+          <div class="gcse-search"></div>
+          <style type="text/css">
+            .cse .gsc-control-cse,
+            .gsc-control-cse {
+              padding: 0em;
+              background: transparent;
+              border: 0px;
+            }
+          </style>
         </div>
       </div>
 
