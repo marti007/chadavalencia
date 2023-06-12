@@ -57,12 +57,12 @@
 .display-date {
   color: #ffffff;;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .display-time {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #ffffff;
   transition: ease-in-out 0.1s;
   transition-property: background, box-shadow, color;
@@ -108,7 +108,7 @@
   font-size: 0.7rem!important;
 }
 .hotline-number{
-  font-size: 0.9rem!important;
+  font-size: 0.7rem!important;
   color: white;
 }
 
@@ -119,10 +119,10 @@
     display: inline-block;
   }
   .hotline{
-    font-size: 0.7rem!important;
+    font-size: 0.6rem!important;
   }
   .hotline-number{
-    font-size: 0.8rem!important;
+    font-size: 0.7rem!important;
   }
 }
 

@@ -28,17 +28,18 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script async src="https://cse.google.com/cse.js?cx=f1340ed61749c436a">
   </script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 
 <body style="background: #ecf0f1;">
-  <script src="valscripts.js"></script>
+
   <!-- HEADER -->
   
     <div class="bg-1 container-fluid justify-content-center text-center p-0 mt-0 ">
       <div class="row row-cols-1 px-0 pt-sm-3 pb-0 m-0" style="background: #000000c7;">
         <div class="col col-sm-3 pt-2 w3-animate-opacity" style="font-family: 'Play';">
           <div class="display-date">
-            <span style="font-size: 0.9rem;">Philippine Standard Time:</span> <br>
+            <span>Philippine Standard Time:</span> <br>
             <span id="day">day</span>,
             <span id="daynum">00</span>
             <span id="month">month</span>
@@ -369,7 +370,7 @@
       <div class="slider">
         <div class="slide-track">
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            <img src="img/ad-regie-logo.png" height="100" width="250" alt="" />
           </div>
           <div class="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
@@ -387,10 +388,10 @@
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            <img src="img/adspace-2.png" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="img/adspace-2.png" height="100" width="250" alt="" />
+            <img src="img/ad-regie-logo.png" height="100" width="250" alt="" />
           </div>
           <div class="slide">
             <img src="img/adspace-3.png" height="100" width="250" alt="" />
@@ -430,7 +431,7 @@
       </div>
       <div class="row row-cols-1 py-5">
         <div class="col col-sm-6 text-center p-xl-5">
-          <div class="px-xl-5">
+          <div class="px-xl-5 reveal">
             <h1 class="w3-text-teal">ADVERTISE WITH US <i class="bi bi-clipboard-check"></i></h1>
             <p class="w3-text-dark-gray">
               In order to continue offering high-quality content and expanding the scope of our website, we are actively
@@ -442,8 +443,8 @@
           <div> <a href="adterms.html" target="_parent"><button class="btn btn-primary">READ MORE</button></a> </div>
         </div>
   
-        <div class="col col-sm-6">
-          <div class=" text-center ">
+        <div class="col col-sm-6 pt-5">
+          <div class=" text-center reveal">
             <h1 style="font-family:cursive; color: #1a0296;">
               Let's Talk <span><img src="img/chat-svgrepo-com.svg" width="100" height="100" class="w3-image" alt=""></span>
             </h1>
@@ -452,38 +453,38 @@
             </p>
           </div>
           <form id="my_form" class="w3-container w3-card-4 w3-padding-16 reveal rounded"
-            style="scale: 0.9; background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);"
-            action="https://formsubmit.co/5520477b36b684ac3fd8f4d8870df9bc" method="POST" target="_blank" enctype="multipart/form-data">
-            <input type="text" name="_honey" style="display: none;">
-            <input type="hidden" name="_captcha" value="false">
-            <div class="row row-cols-1">
-              <div class="col-md-4  mb-3">
-                <label for="firstName" class="form-label text-white">First Name:</label>
-                <input type="text" class="form-control" name="First&nbsp;Name" id="firstName" placeholder="" required>
-              </div>
-              <div class="col-md-4 mb-3">
-                <label for="lastName" class="form-label text-white">Last Name:</label>
-                <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" placeholder="" required>
-              </div>
-              <div class="col-md-4 mb-3">
-                <label for="phone" class="form-label text-white">Phone (Optional)</label>
-                <input type="" class="form-control" name="Phone&nbsp;Number" id="phone" placeholder="">
-              </div>
+          style="scale: 0.9; background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);"
+          action="https://formsubmit.co/5520477b36b684ac3fd8f4d8870df9bc" method="POST" target="_blank" enctype="multipart/form-data">
+          <input type="text" name="_honey" style="display: none;">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="row row-cols-1">
+            <div class="col-md-4  mb-3">
+              <label for="firstName" class="form-label text-white">First Name:</label>
+              <input type="text" class="form-control" name="First&nbsp;Name" id="firstName" placeholder="" required>
             </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label text-white">Email address:</label>
-              <input type="email" class="form-control" name="Email&nbsp;Address" id="exampleFormControlInput1"
-                placeholder="" required>
+            <div class="col-md-4 mb-3">
+              <label for="lastName" class="form-label text-white">Last Name:</label>
+              <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" placeholder="" required>
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label text-white">Message:</label>
-              <textarea class="form-control" name="Message" id="message" rows="3" required></textarea>
+            <div class="col-md-4 mb-3">
+              <label for="phone" class="form-label text-white">Phone (Optional)</label>
+              <input type="" class="form-control" name="Phone&nbsp;Number" id="phone" placeholder="">
             </div>
-            <!-- <input class="w3-check" type="checkbox" checked name="Like">
-                <label>I Like it!</label> -->
-            <button type="submit" class="btn btn-danger w3-right w3-theme">Send</button>
-          </form>
-        </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label text-white">Email address:</label>
+            <input type="email" class="form-control" name="Email&nbsp;Address" id="exampleFormControlInput1"
+              placeholder="" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label text-white">Message:</label>
+            <textarea class="form-control" name="Message" id="message" rows="3" required></textarea>
+          </div>
+          <!-- <input class="w3-check" type="checkbox" checked name="Like">
+              <label>I Like it!</label> -->
+          <button type="submit" class="btn btn-danger w3-right w3-theme">Send</button>
+        </form>
+          </div>
       </div>
     </div>
   
@@ -567,83 +568,9 @@
         <span class="animate-charcter w3-wide" style="font-size: small;">RVM</span>
       </p>
     </div>
-  
+    <script type="text/javascript" src="valscripts.js"></script>
   </section>
-  <script>
-    const displayTime = document.querySelector(".display-time");
-    // Time
-    function showTime() {
-      let time = new Date();
-      displayTime.innerText = time.toLocaleTimeString("en-US", { hour12: true });
-      setTimeout(showTime, 1000);
-    }
-
-    showTime();
-
-    // Date
-    function updateDate() {
-      let today = new Date();
-
-      // return number
-      let dayName = today.getDay(),
-        dayNum = today.getDate(),
-        month = today.getMonth(),
-        year = today.getFullYear();
-
-      const months = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December",
-      ];
-      const dayWeek = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-      ];
-      // value -> ID of the html element
-      const IDCollection = ["day", "daynum", "month", "year"];
-      // return value array with number as a index
-      const val = [dayWeek[dayName], dayNum, months[month], year];
-      for (let i = 0; i < IDCollection.length; i++) {
-        document.getElementById(IDCollection[i]).firstChild.nodeValue = val[i];
-      }
-    }
-
-    updateDate();
-
-  </script>
-  <script>
-    function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
-
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 150;
-
-    if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
-    }
-  }
-}
-
-window.addEventListener("scroll", reveal);
-  </script>
+  
 </body>
 
 </html>
