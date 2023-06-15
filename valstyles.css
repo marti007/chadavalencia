@@ -134,3 +134,14 @@
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,102,203);
 } 
+
+
+.neg-or path{
+  stroke:rgb(11, 0, 105);
+  pointer-events: all;
+}
+.neg-or path:hover{
+  fill:rgb(0, 255, 42);
+  stroke:blue;
+  transition: .5s;
+}
