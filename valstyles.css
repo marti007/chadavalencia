@@ -173,3 +173,13 @@
   stroke: blue;
   transition: .5s;
 }
+
+.negor-bg {
+  background-color: #040a24;
+  background-image: url('img/negor_official_seal.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
