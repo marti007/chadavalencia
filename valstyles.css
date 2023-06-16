@@ -165,13 +165,14 @@
 
 .neg-or path {
   stroke: rgb(11, 0, 105);
-  pointer-events: all;
+  border: none;
 }
 
 .neg-or path:hover {
-  fill: rgb(0, 255, 42);
+  fill: rgb(60, 255, 0);
   stroke: blue;
   transition: .5s;
+  pointer-events: all;
 }
 
 .negor-bg {
